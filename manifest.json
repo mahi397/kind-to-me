@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "KindToMe",
+    "description": "Shows you kind reminders and good things that YOU want to see every time you open a new tab.",
+    "version": "1",
+    "author": "Mahima Sachdeva",
+    "browser_action": {
+        "default_title": "Have a good day"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
